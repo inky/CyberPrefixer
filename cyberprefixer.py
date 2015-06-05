@@ -109,7 +109,7 @@ def tweet(headline):
     f.close()
 
     # Post tweet
-    api.update_status(headline)
+    api.update_status(status=headline)
     return True
 
 
